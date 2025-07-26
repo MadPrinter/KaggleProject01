@@ -2,8 +2,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-train = pd.read_csv('E:/study/PycharmProjects/KaggleProject01/.venv/dataset/train.csv')
-test = pd.read_csv('E:/study/PycharmProjects/KaggleProject01/.venv/dataset/test.csv')
+train = pd.read_csv('E:/study/PycharmProjects/KaggleProject01/dataset/train.csv')
+test = pd.read_csv('E:/study/PycharmProjects/KaggleProject01/dataset/test.csv')
 
 # 查看数据概况
 print(train.info())
